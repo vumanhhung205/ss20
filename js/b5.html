@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    
+    let diemVatLy = +prompt("Nhập điểm Vật lý:");
+    let diemHoaHoc =+prompt("Nhập điểm Hóa học:");
+    let diemSinhHoc =+prompt("Nhập điểm Sinh học:");
+
+   
+    let tongDiem = diemVatLy + diemHoaHoc + diemSinhHoc;
+    let diemTrungBinh = tongDiem / 3;
+
+    
+    console.log("Tổng điểm:", tongDiem);
+    console.log("Điểm trung bình:", diemTrungBinh.toFixed(2)); 
+</script>
+
+</body>
+</html>
